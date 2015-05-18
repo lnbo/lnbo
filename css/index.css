@@ -1,0 +1,337 @@
+
+body {
+    background: #eeeeee;
+    padding: 0;
+    text-align: center;
+    font-family: 'open sans';
+    position: relative;
+    margin: 0;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+    height: 100% !important;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.pointer {
+    color: #9b59b6;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.clear {
+    width: auto;
+}
+
+header {
+    position: relative;
+    z-index: 10;
+}
+.main section .page_container {
+    position: relative;
+    top: 25%;
+    margin: 0 auto 0;
+    max-width: 950px;
+    z-index: 3;
+}
+.main section  {
+    overflow: hidden;
+}
+
+.main section > img {
+    position: absolute;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.main section.page1 {
+    background:rgb(230, 217, 200);
+}
+
+/*-------------- Header Wrap */
+#headerwrap {
+    background: url(../img/header-bg.jpg) no-repeat center top;
+    //	margin-top: 60px;
+    //	padding-top:140px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.whoim {
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    top: 100px;
+
+}
+.box-line {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    display: inline-block;
+    border:1px solid #fff;
+}
+.text-bold {
+    font-weight: 700;
+}
+h1 {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size:80px;
+    line-height:90px;
+    font-weight:400;
+    margin:0px;
+    padding-bottom:8px;
+}
+h2 {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 36px;
+    line-height: 38px;
+    padding-bottom: 0px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+h3 {
+      font-family: 'Sorts Mill Goudy', serif;
+}
+.bannerText {
+    position:absolute;
+    left:0;
+    right:0;
+    color: #ffffff;
+    text-align:center;
+    padding:30px 0 30px;
+    border:1px solid #fff;
+    background: rgba(0, 0, 0, 0.3);
+    zoom: 1;
+}
+.bannerText h1 {
+    text-transform:uppercase;
+}
+.bannerText h2 {
+    font-size:34px;
+    text-transform:none;
+}
+
+
+/*-------------- Header Wrap */
+
+.main section .page_container .btns a{
+    text-align: center;
+}
+.main section.page2 {
+
+}
+
+
+.Absolute-Center {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+//------------------------
+
+
+//------------------------
+
+.main section.page3 {
+    background:rgb(230, 217, 200);
+}
+
+
+.slide {
+    display: block;
+
+    width: 900px;
+    height: 700px;
+    padding: 40px 60px;
+
+    /* background-color: white; */
+    /* border: 1px solid rgba(0, 0, 0, .3); */
+    border-radius: 10px;
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, .1); */
+
+    color: rgb(102, 102, 102);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -1px;
+}
+
+.resume-history > ul.history-list{
+    margin-top: 21px;
+    position: relative;
+}
+.resume-history > ul.history-list > li.item{
+    margin-bottom: 10.5px;
+}
+
+
+
+.workYear {
+    font-size: 22px;
+    color:#fff;
+    background:#ff675f;
+    text-align:center;
+    width:140px;
+    height:140px;
+    padding: 53px 0 40px 0;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+.rightArea {
+    border-left: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    left: 15px;
+    width: 100%;
+}
+.arrowpart {
+    float: left;
+    width: 15px;
+    height: 50px;
+    background: url(../img/arrow-left-light.png) no-repeat 0 23px;
+    position: relative;
+    left: 0px;
+}
+.exCon {
+    background: #fafafa;
+    border-bottom: solid 4px #eeeeee;
+    padding: 22px 47px 6px 47px;
+    margin-left: 15px;
+    text-align: left;
+    position: relative;
+    left: -15px;
+    top: 0px;
+}
+.exCon h4 {
+    color: #474d5d;
+    padding-bottom: 3px;
+    font-size: 28px;
+}
+.exCon h5 {
+    color: #474d5d;
+    font-size: 20px;
+    font-weight: normal;
+}
+.exCon p {
+    font-size: 18px;
+    line-height: 2;
+    margin: 20px 0;
+}
+.impress-info {
+    background: none repeat scroll 0 0 #000000;
+    bottom: 0;
+    height: 70px;
+    opacity: 0.3;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+}
+.impress-info-text {
+    bottom: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+.impress-info-text img {
+    width: 60px;
+}
+.content.sk {
+    overflow: hidden;
+}
+.sk-title {
+    float: left;
+}
+.sk-content {
+    color: #999;
+    line-height: 2;
+    float: right;
+}
+.sk-circle {
+    width: 15px;
+    height: 15px;
+    background: #999;
+    border: 1px solid #999;
+    border-radius: 50%;
+    display: inline-block;
+}
+.blk .sk-circle {
+    background-color: rgba(0,0,0,0.3);
+    border-color: rgba(0,0,0,0.3);
+}
+
+.blk .sk-circle.sk-circle-empty {
+    background-color: transparent;
+}
+.sk-box hr {
+    border-top-color: rgba(0,0,0,0.3);
+}
+.hi-box {
+
+}
+
+.hi-box li {
+    display: inline-block;
+    border: 1px solid #CCC;
+    border-radius: 50%;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 20px;
+    padding: 10px 0 0;
+}
+
+.hi-box li .hi-icon {
+    font-size: 30px;
+    margin-right: 0;
+    /*color: #999;*/
+}
+
+.hi-box li .hi-title {
+    font-weight: bold;
+}
+
+.hi-box li .hi-subtitle {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999;
+}
+#global_scroll {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -10px;
+}
