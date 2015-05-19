@@ -216,7 +216,7 @@ h3 {
     float: left;
     width: 15px;
     height: 50px;
-    background: url(../img/arrow-left-light.png) no-repeat 0 23px;
+    //background: url(../img/arrow-left-light.png) no-repeat 0 23px;
     position: relative;
     left: 0px;
 }
