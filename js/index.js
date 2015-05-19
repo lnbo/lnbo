@@ -3,7 +3,7 @@
  */
 $(document).ready(function(){
 
-      impress().init();
+    impress().init();
     $(".main").onepage_scroll({
         sectionContainer: "section",
         responsiveFallback: 600,
@@ -24,4 +24,5 @@ $(document).ready(function(){
             }
             return ;
     })
+    $(".se-pre-con").fadeOut("slow");;
 });
